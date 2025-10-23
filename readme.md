@@ -26,12 +26,16 @@ yarn add svgo --dev
 
 ## jsDelivr
 
+[Docs](https://www.jsdelivr.com/?docs=gh)
+
 > https://cdn.jsdelivr.net/gh/<USERNAME>/<REPO>@<BRANCH>/<PERCORSO>
+>
+> https://cdn.jsdelivr.net/gh/meridionalefondiaria/meridionale-cdn/icons-min/phone.svg
 
 ```html
-<img src="https://cdn.jsdelivr.net/gh/tuonome/mefy-icons@main/icons/home.svg"
-     width="20" height="20" alt="Casa"
-     style="display:inline-block;vertical-align:middle;margin-right:10px;" />
+<img src="https://cdn.jsdelivr.net/gh/meridionalefondiaria/meridionale-cdn/icons-min/phone.svg"
+     width="20" height="20" alt="Phone"
+     style="display:inline-block;vertical-align:middle;" />
 ```
 
 ## Tips for mail clients
