@@ -24,8 +24,14 @@ yarn add svgo --dev
 [https://ionicons.com](https://ionicons.com)
 [https://boxicons.com](https://boxicons.com)
 
+## jsDelivr
+
+> https://cdn.jsdelivr.net/gh/<USERNAME>/<REPO>@<BRANCH>/<PERCORSO>
+
 ```html
-<img src="https://cdn.jsdelivr.net/gh/tuo/mefy-icons@main/icons/home.svg" width="20" height="20" alt="Home" style="display:inline-block;border:0;" />
+<img src="https://cdn.jsdelivr.net/gh/tuonome/mefy-icons@main/icons/home.svg"
+     width="20" height="20" alt="Casa"
+     style="display:inline-block;vertical-align:middle;margin-right:10px;" />
 ```
 
 ## Tips for mail clients

@@ -11,7 +11,6 @@ export default {
     'inlineStyles',
     'minifyStyles',
     'convertStyleToAttrs',
-    'cleanupIDs',
     'removeRasterImages',
     'removeUselessDefs',
     'cleanupNumericValues',
