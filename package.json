@@ -1,0 +1,11 @@
+{
+  "name": "mail-icons",
+  "packageManager": "yarn@4.4.1",
+  "type": "module",
+  "scripts": {
+    "optimize-icons": "svgo -f ./icons -o ./icons-min --config=svgo.config.js --multipass"
+  },
+  "devDependencies": {
+    "svgo": "^4.0.0"
+  }
+}

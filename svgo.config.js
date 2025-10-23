@@ -1,0 +1,41 @@
+export default {
+  multipass: true,
+  plugins: [
+    'removeDoctype',
+    'removeXMLProcInst',
+    'removeComments',
+    'removeMetadata',
+    'removeEditorsNSData',
+    'cleanupAttrs',
+    'mergeStyles',
+    'inlineStyles',
+    'minifyStyles',
+    'convertStyleToAttrs',
+    'cleanupIDs',
+    'removeRasterImages',
+    'removeUselessDefs',
+    'cleanupNumericValues',
+    'convertColors',
+    'removeUnknownsAndDefaults',
+    'removeNonInheritableGroupAttrs',
+    'removeUselessStrokeAndFill',
+    'cleanupEnableBackground',
+    'removeHiddenElems',
+    'removeEmptyText',
+    'convertShapeToPath',
+    'moveElemsAttrsToGroup',
+    'moveGroupAttrsToElems',
+    'collapseGroups',
+    'convertPathData',
+    'convertTransform',
+    'removeEmptyAttrs',
+    'removeEmptyContainers',
+    'removeUnusedNS',
+    'sortAttrs',
+    'removeTitle',
+    {
+      name: 'removeAttrs',
+      params: { attrs: '(fill|stroke.*)' }
+    }
+  ]
+}
