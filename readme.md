@@ -38,6 +38,23 @@ yarn add svgo --dev
      style="display:inline-block;vertical-align:middle;" />
 ```
 
+or
+
+```html
+<!-- for mails -->
+<td width="32" valign="middle" style="padding-right: 10px;">
+     <table border="0" cellpadding="0" cellspacing="0" width="28" height="28">
+          <tr>
+               <td align="center" valign="middle" style="line-height: 0;">
+                    <img src="https://cdn.jsdelivr.net/gh/meridionalefondiaria/meridionale-cdn/icons-png/lead.png"
+                         width="24" height="24" alt="Lead"
+                         style="display: block; margin: 0 auto;" />
+               </td>
+          </tr>
+     </table>
+</td>
+```
+
 ## Tips for mail clients
 
 Test with services like **Litmus/Email on Acid** (if you use them) and on real clients (Gmail web, Gmail mobile, Outlook 2016/2019/365 desktop, Outlook Web, Apple Mail iOS/macOS).
